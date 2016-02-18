@@ -43,6 +43,9 @@ body {
 	display: flex;
 	justify-content: center;
 }
+a {
+	text-decoration: none;
+}
 .fa.social {
 	color: #0d0d0d;
 	font-size: 3vh;
