@@ -66,28 +66,23 @@ a {
 
 	border: 0.3vh solid #656D78;
 }
-.fa.fa-linkedin:hover {
+
+.fa.social:hover {
 	color: #F5F7FA;
+}
+
+.fa.fa-linkedin:hover {
 	background-color: #4A89DC; 
-	/*border: 0.4vh solid #F5F7FA;*/
 }
 .fa.fa-twitter:hover {
-	color: #F5F7FA;
 	background-color: #4FC1E9; 
-	/*border: 0.4vh solid #F5F7FA;*/
 }
-.fa.fa-envelope-o:hover {
-	color: #F5F7FA;
-	background-color: #E9573F; 
-	/*border: 0.4vh solid #F5F7FA;*/
+.fa.ion-android-mail:hover {
+	background-color: #8CC152; 
 }
 .fa.fa-github:hover {
-	color: #F5F7FA;
 	background-color: #333333; 
-	/*border: 0.4vh solid #F5F7FA;*/
 }
 .fa.fa-heart:hover {
-	color: #F5F7FA;
-	background-color: #8CC152; 
-	/*border: 0.4vh solid #F5F7FA;*/
+	background-color: #E9573F; 
 }
