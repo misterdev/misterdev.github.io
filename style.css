@@ -34,7 +34,7 @@ body {
     background: -webkit-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Safari 5.1 to 6.0 */
     background: -o-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Opera 11.1 to 12.0 */
     background: -moz-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(circle, #FFCE54, #FC6E51); /* Standard syntax */
+    background: radial-gradient(circle, #CCD1D9, #FC6E51); /* Standard syntax */
 
 }
 
@@ -67,7 +67,7 @@ a {
 	text-decoration: none;
 }
 .fa.social {
-	color: #656D78;
+	color: #434A54;
 	font-size: 3vh;
 	
 	margin: 1vh;
@@ -82,11 +82,26 @@ a {
 	justify-content: center;
 	align-items: center;
 
-	border: 0.3vh solid #656D78;
 }
 
 .fa.social:hover {
 	color: #F5F7FA;
+}
+/*
+.fa.fa-linkedin {
+	color: #4A89DC; 
+}
+.fa.fa-twitter {
+	color: #0074D9; 
+}
+.fa.fa-envelope {
+	color: #3D9970; 
+}
+.fa.fa-github {
+	color: #333333; 
+}*/
+.fa.fa-heart {
+	color: #E9573F; 
 }
 
 .fa.fa-linkedin:hover {
