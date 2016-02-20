@@ -9,8 +9,8 @@ body {
 	height: 100%;
 	min-height: 100%;
 	width: 100%;
-	background-color: #0d0d0d;
-	border: 2px solid #F5F7FA;
+	background-color: #E6E9ED;
+	border: 2px solid #434A54;
 }
 
 #namew {
@@ -21,17 +21,19 @@ body {
 }
 
 .namec {
-	color: #F5F7FA;
+	color: #434A54;
 	text-align: center;
 	font-size: 6vh;
-	font-weight: bold;
-	font-family: sans-serif;
+	/*font-weight: bold;*/
+	font-family: 'Quicksand', sans-serif;
 
 	margin: 10px;
-	border: 0.4vh solid #F5F7FA;
+	border: 0.4vh solid #434A54;
 	border-radius: 50%; 
 	height: 10vh;
-	width : 10vh;
+	width : 10vh;	
+	min-height: 10vh;
+	min-width : 10vh;
 
 	display: flex;
 	justify-content: center;
@@ -47,23 +49,45 @@ a {
 	text-decoration: none;
 }
 .fa.social {
-	color: #0d0d0d;
+	color: #656D78;
 	font-size: 3vh;
 	
 	margin: 1vh;
-	background-color: #101010; 
+	/*background-color: #101010; */
 	border-radius: 50%; 
 	height: 6vh;
-	width : 6vh;
+	width : 6vh;	
+	min-height: 6vh;
+	min-width : 6vh;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
-	border: 0.4vh solid #0d0d0d;
+	border: 0.3vh solid #656D78;
 }
-.fa.social:hover {
+.fa.fa-linkedin:hover {
 	color: #F5F7FA;
-
-	border: 0.4vh solid #F5F7FA;
+	background-color: #4A89DC; 
+	/*border: 0.4vh solid #F5F7FA;*/
+}
+.fa.fa-twitter:hover {
+	color: #F5F7FA;
+	background-color: #4FC1E9; 
+	/*border: 0.4vh solid #F5F7FA;*/
+}
+.fa.fa-envelope-o:hover {
+	color: #F5F7FA;
+	background-color: #E9573F; 
+	/*border: 0.4vh solid #F5F7FA;*/
+}
+.fa.fa-github:hover {
+	color: #F5F7FA;
+	background-color: #333333; 
+	/*border: 0.4vh solid #F5F7FA;*/
+}
+.fa.fa-heart:hover {
+	color: #F5F7FA;
+	background-color: #8CC152; 
+	/*border: 0.4vh solid #F5F7FA;*/
 }
