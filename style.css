@@ -20,22 +20,10 @@ body {
     background: -o-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Opera 11.1 to 12.0 */
     background: -moz-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Firefox 3.6 to 15 */
     background: radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* Standard syntax */
-
 }
 
 #namew {
 	height: 90%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.favi {
-    background: -webkit-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Opera 11.1 to 12.0 */
-    background: -moz-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(circle, #CCD1D9, #FC6E51); /* Standard syntax */
-
 }
 
 .namec {
@@ -52,10 +40,6 @@ body {
 	width : 10vh;	
 	min-height: 10vh;
 	min-width : 10vh;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 #socialw {
@@ -63,59 +47,98 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
 a {
 	text-decoration: none;
 }
-.fa.social {
-	color: #434A54;
-	font-size: 3vh;
-	
-	margin: 1vh;
-	/*background-color: #101010; */
-	border-radius: 50%; 
-	height: 6vh;
-	width : 6vh;	
-	min-height: 6vh;
-	min-width : 6vh;
 
+.cx {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
 
-.fa.social:hover {
+/* SETUP GENERICO*/
+.social-w {
+	margin: 1vh;
+	height: 6vh;
+	width: 6vh;
+}
+
+.social-bg {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+
+.fa.social-i {
+	color: #434A54;
+	font-size: 3vh;
+	
+	border-radius: 50%; 
+	
+	background-size: 5px;
+}
+
+
+@keyframes social-a {
+    from {
+		width: 0%;
+		height: 0%;
+	}
+    to {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* HOVER */
+.social-w:hover .social-i {
 	color: #F5F7FA;
 }
-/*
-.fa.fa-linkedin {
-	color: #4A89DC; 
-}
-.fa.fa-twitter {
-	color: #0074D9; 
-}
-.fa.fa-envelope {
-	color: #3D9970; 
-}
-.fa.fa-github {
-	color: #333333; 
-}*/
-.fa.fa-heart {
-	color: #E9573F; 
+.social-w:hover .social-bg {
+    animation-name: social-a;
+    animation-duration: 0.3s;
 }
 
-.fa.fa-linkedin:hover {
-	background-color: #0274B3; 
+/* Casi specifici */
+.social-w.github:hover .social-bg {
+	background-color: #333333;
 }
-.fa.fa-twitter:hover {
-	background-color: #59A6DC; 
+.social-w.twitter:hover .social-bg {
+	background-color: #59A6DC;
 }
-.fa.fa-envelope:hover {
-	background-color: #53A93F; 
+.social-w.heart:hover .social-bg {
+	background-color: #E9573F;
 }
-.fa.fa-github:hover {
-	background-color: #333333; 
+.social-w.linkedin:hover .social-bg {
+	background-color: #0274B3;
 }
-.fa.fa-heart:hover {
-	background-color: #E9573F; 
+.social-w.envelope:hover .social-bg {
+	background-color: #53A93F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa.social{
+	color: #434A54;
+	font-size: 3vh;
+	
+	border-radius: 50%; 
+	
+	background-size: 5px;
+}
+
+.fa.fa-heart {
+	color: #E9573F; 
 }
