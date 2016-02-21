@@ -9,9 +9,12 @@
     	} else {
     		d += 1000;
     		setTimeout(function(){$("#prompt").append('<br />');}, delay+d);
-    		setTimeout(function() {
 
-    			$('#wrapper').show();
+    		setTimeout(function() {
+    			 $("#open").html('');
+    			setTimeout(function() {
+					$('#wrapper').show();
+    			}, 1000);
     		}, delay+d+500);
     	}
     });
