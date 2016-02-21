@@ -9,8 +9,9 @@
     		d += 1000;
     		setTimeout(function(){$("#prompt").append('<br />');}, 2000+d);
     		setTimeout(function() {
-    			$('#open').hide();
+
     			$('#wrapper').show();
+    			$('#wrapper').addClass('zoomIn');
     		}, 2000+d+500);
     	}
     });

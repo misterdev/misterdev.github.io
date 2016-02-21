@@ -10,6 +10,11 @@ body {
 }
 
 #wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+
 	display: none;
 	height: 100%;
 	width: 100%;
@@ -121,13 +126,18 @@ a {
 
 /* OPEN */
 #open {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	/*z-index: 2;*/
+
 	padding-left: 2px;
 	background-color: black;
 	height: 100%;
 	width: 100%;
 	color: white;
 	font-family: 'Ubuntu Mono';
-	
+
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
