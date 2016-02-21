@@ -178,22 +178,14 @@ a {
 	background-color: #53A93F;
 }
 
-
-
-
-
-
-
-
 /* OPEN */
 #open {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	/*z-index: 2;*/
 
 	padding-left: 2px;
-	background-color: black;
+	background-color: #212121;
 	height: 100%;
 	width: 100%;
 	color: white;
@@ -204,11 +196,11 @@ a {
     -webkit-box-sizing: border-box;
     border: 0.8vh solid white;
 }
-#cursor {
-	/*background-color: white;*/
-	animation: cursor 1s linear infinite;
 
+#cursor {
+	animation: cursor 1s linear infinite;
 }
+
 @keyframes cursor {  
 	0% { opacity: 1; }
 	50% { opacity: 1; }
