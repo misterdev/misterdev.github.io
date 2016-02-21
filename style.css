@@ -10,12 +10,14 @@ body {
 }
 
 #wrapper {
+	display: none;
 	height: 100%;
 	width: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     border: 0.8vh solid white;
+    background-repeat: no-repeat;
     background: -webkit-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Safari 5.1 to 6.0 */
     background: -o-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Opera 11.1 to 12.0 */
     background: -moz-radial-gradient(circle, #CCD1D9, #FFCE54, #FC6E51); /* For Firefox 3.6 to 15 */
@@ -88,6 +90,9 @@ a {
 	background-size: 5px;
 }
 
+.fa.fa-heart {
+	color: #E9573F;
+}
 /* HOVER */
 .social-w:hover .social-i {
 	color: #F5F7FA;
@@ -114,15 +119,32 @@ a {
 	background-color: #53A93F;
 }
 
+/* OPEN */
+#open {
+	padding-left: 2px;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-family: 'Ubuntu Mono';
+	
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 0.8vh solid white;
+}
+#cursor {
+	/*background-color: white;*/
+	animation: cursor 1s linear infinite;
 
+}
+@keyframes cursor {  
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	51% { opacity: 0.0; }
+	100% { opacity: 0.0; }
+}
 
-
-
-
-
-
-
-
-.fa.fa-heart {
-	color: #E9573F; 
+span[class^="char"] {
+	display: none;
 }
