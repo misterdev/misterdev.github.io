@@ -1,18 +1,18 @@
   $(document).ready(function() {
+  	var delay = 100;
     $("#prompt").lettering();
     $("#prompt").children("span").each(function(i) {
     	var x = $(this);
     	var d = i * 100;
     	if($(this).text() !== '_') {
-			setTimeout(function(){x.show()}, 2000+d);
+			setTimeout(function(){x.show()}, delay+d);
     	} else {
     		d += 1000;
-    		setTimeout(function(){$("#prompt").append('<br />');}, 2000+d);
+    		setTimeout(function(){$("#prompt").append('<br />');}, delay+d);
     		setTimeout(function() {
 
     			$('#wrapper').show();
-    			$('#wrapper').addClass('zoomIn');
-    		}, 2000+d+500);
+    		}, delay+d+500);
     	}
     });
   });
