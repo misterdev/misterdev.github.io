@@ -1,9 +1,13 @@
 <script>
+    import Categories from './Categories.svelte'
 </script>
 
+ <!-- https://www.youtube.com/watch?v=tJ3nGtooxoM&t=656s -->
 <div id="wrapper">
     <div id="content">
-        <div id="categories"></div>
+        <div id="categories">
+            <Categories />
+        </div>
         <div id="list"></div>
         <div id="queue"></div>
         <div id="description"></div>
@@ -15,7 +19,6 @@
 <style>
     #categories {
         grid-area: cats;
-        background-color: red;
     }
     #list {
         grid-area: list;
