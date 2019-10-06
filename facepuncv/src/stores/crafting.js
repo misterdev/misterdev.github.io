@@ -33,7 +33,7 @@ content.EXPERIENCE = [
         icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
         date: "25 dicc",
         // 
-        description: "...",
+        description: "A cookie associated with a cross-site resource at https://google.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure",
         link: "?",
         skills: [
             {}, {}
@@ -45,7 +45,7 @@ content.EXPERIENCE = [
         icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
         date: "25 dicc",
         // 
-        description: "...",
+        description: "kajshdkjahsdkja aksjdhkajs dkjashd kashdk asdkjahs dkahs d aisuhda sdkasdiuasdauis daiusd asiduha sidiuashd ajshdkhae fiuh",
         link: "?",
         skills: [
             {}, {}
@@ -57,7 +57,7 @@ content.EXPERIENCE = [
         icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
         date: "25 dicc",
         // 
-        description: "...",
+        description: "jh hk kj jh kjh kjh kj hk jh kjh kj hkj hk jh kj h kjh kj hkj hkj hkj h kjh",
         link: "?",
         skills: [
             {}, {}

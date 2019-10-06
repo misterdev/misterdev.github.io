@@ -7,12 +7,15 @@
         items = content[nav.cat]
         selected = nav.selected
     })
-    console.log(items, selected)
+
+    const selectItem = (index) => {
+        navigation.update(({cat, selected}) => ({cat, selected: index}))
+    }
 </script>
 
 <div class="wrapper">
-    {#each items as { label, icon}}
-        <div class="item">
+    {#each items as { label, icon}, i}
+        <div class="item" on:click={() => selectItem(i)}>
             <img src={icon} />
         </div>
     {/each}
@@ -41,6 +44,9 @@
         content:'';
         float:left;
         padding-top:100%;
+    }
+    .item:hover {
+        background-color: green;
     }
     .item img {
         max-width: 60%;
