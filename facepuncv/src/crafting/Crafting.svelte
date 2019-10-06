@@ -62,7 +62,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        padding: 40px;
+        padding: 40px 40px 80px 40px;
         overflow: hidden;
         background: greenyellow;
         opacity: .7;

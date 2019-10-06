@@ -31,7 +31,7 @@
         font-size: 1vw;
     }
     .item {
-        flex-basis: 20%;
+        flex-basis: 10%;
         display: flex;
         flex-direction: row;
         background-color: green;

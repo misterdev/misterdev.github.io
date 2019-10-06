@@ -15,11 +15,6 @@ export const categories = {
         id: 'PROJECTS',
         label: 'Projects',
         count: 7,
-    },
-    STUFF: {
-        id: 'STUFF',
-        label: 'Other Stuff',
-        count: 4,
     }
 }
 
@@ -29,11 +24,11 @@ export let content = {}
 content.EXPERIENCE = [
     {
         // icon
-        label: "OSS Javascript Developer",
+        label: "Webpack",
         icon: "images/webpack.png",
-        date: "25 dicc",
+        date: "Dec 2018",
         // 
-        description: "After contributing to Webpack, I've been selected globally for the \"Google Summer of Code 2019\" to design and develop a modular output reporting system for webpack",
+        description: "(OSS Javascript Developer)\nAfter contributing to Webpack, I've been selected globally for the \"Google Summer of Code 2019\" to design and develop a modular output reporting system for webpack",
         links: [
             {
                 icon: "images/gsoc.png",
@@ -41,25 +36,26 @@ content.EXPERIENCE = [
                 label: "GSoC Website"
             },
             {
-                icon: "images/gsoc.png",
-                url: "https://github.com/misterdev/webpack-reporter-plugin"
+                icon: "images/github.png",
+                url: "https://github.com/misterdev/webpack-reporter-plugin",
+                label: "Repository"
             }
         ],
         stats: [
             {
                 label: 'Javascript',
-                count: 700
+                count: 800
             },
             {
-                label: 'Firebase',
-                count: 600
+                label: 'Typescript',
+                count: 800
             },
             {
-                label: 'Firebase',
-                count: 600
+                label: 'Webpack',
+                count: 900
             },
             {
-                label: 'Firebase',
+                label: 'Git',
                 count: 600
             }
         ]
@@ -67,85 +63,99 @@ content.EXPERIENCE = [
     {
         // icon
         label: "Lay Lab",
-        icon: "images/gsoc.png",
+        icon: "images/laylab.png",
         date: "25 dicc",
         // 
-        description: "kajshdkjahsdkja aksjdhkajs dkjashd kashdk asdkjahs dkahs d aisuhda sdkasdiuasdauis daiusd asiduha sidiuashd ajshdkhae fiuh",
+        description: "I worked on different projects using web technologies. I developed some websites and a mobile app with a complex backend",
         links: [
             {
-                icon: "images/gsoc.png",
+                icon: "images/laylab.png",
                 url: "https://github.com/misterdev/webpack-reporter-plugin"
             }
         ],
         stats: [
             {
-                label: 'Javascript',
-                count: 500
+                label: 'Firebase',
+                count: 1000
             },
             {
-                label: 'Firebase',
-                count: 70
+                label: 'NodeJS',
+                count: 900
+            },
+            {
+                label: 'Ionic',
+                count: 900
+            },
+            {
+                label: 'ElasticSearch',
+                count: 300
+            },
+            {
+                label: 'Google Cloud Engine',
+                count: 300
             }
         ]
     },
     {
         // icon
-        label: "GSOC 15",
+        label: "MIT App Inventor",
         icon: "images/appinventor.png",
         date: "25 dicc",
         // 
-        description: "jh hk kj jh kjh kjh kj hk jh kjh kj hkj hk jh kj h kjh kj hkj hkj hkj h kjh",
-        link: "?",
+        description: `
+        OSS Javascript Developer
+        MIT Media Lab (Massachusetts, US - Remote work)
+        
+        I've been selected globally for the "Google Summer of Code 2015" to work on an organization tool for the Blockly editor of MIT App Inventor 2        
+        `,
+        links: [
+            {
+                icon: "images/gsoc.png",
+                url: "https://www.google-melange.com/archive/gsoc/2015/orgs/media/projects/misterdev.html"
+            },
+            {
+                icon: "images/gdoc.png",
+                url: "https://docs.google.com/document/d/1nzdrNGGjEptc7phiU6JOuV8UQTZRNH_0Ve8lukBIZuI"
+            }
+        ],
         stats: [
             {
-                label: 'Ionic',
-                count: 500
-            },
-            {
-                label: 'Firebase',
-                count: 70
-            },
-            {
-                label: 'Elasticsearch',
-                count: 70
+                label: 'Javascript',
+                count: 700
             }
         ]
     },
     {
         // icon
         label: "DMDTEK",
-        icon: "images/gsoc.png",
+        icon: "images/android.png",
         date: "25 dicc",
         // 
-        description: "...",
-        link: "?",
+        description: `
+        Android Developer
+        DMDTEK S.R.L (Imola, BO)
+
+        I developed a module for and Android embedded system
+        `,
+        links: [],
         stats: [
-            {}, {}
+            {
+                label: 'Android',
+                count: 60
+            }
         ]
-    },
-    {
-        // icon
-        label: "DMDTEK2",
-        icon: "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/18694_911109745594187_7030459367885190809_n.png?_nc_cat=108&_nc_oc=AQnTdmWlA9fqHKK6xOsSIrBnNJOoEcXsf_mq0OcpGXZPmev-gYY5vkpmY7A7SefxW8w&_nc_ht=scontent-mxp1-1.xx&oh=67ece57b6a4d3cf2c662c30818e478f1&oe=5E268ADB",
-        date: "25 dicc",
-        // 
-        description: "...",
-        link: "?",
-        stats: [
-            {}, {}
-        ]
-    },
+    }
 ]
 
 content.EDUCATION = [
     {
         // icon
         label: "CS Master",
-        icon: "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/18694_911109745594187_7030459367885190809_n.png?_nc_cat=108&_nc_oc=AQnTdmWlA9fqHKK6xOsSIrBnNJOoEcXsf_mq0OcpGXZPmev-gYY5vkpmY7A7SefxW8w&_nc_ht=scontent-mxp1-1.xx&oh=67ece57b6a4d3cf2c662c30818e478f1&oe=5E268ADB",
+        icon: "images/alma.png",
         date: "25 dicc",
         // 
         description: "...",
-        link: "?",
+        links: [],
         stats: [
             {}, {}
         ]
@@ -153,11 +163,11 @@ content.EDUCATION = [
     {
         // icon
         label: "CS Bachelor",
-        icon: "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/18694_911109745594187_7030459367885190809_n.png?_nc_cat=108&_nc_oc=AQnTdmWlA9fqHKK6xOsSIrBnNJOoEcXsf_mq0OcpGXZPmev-gYY5vkpmY7A7SefxW8w&_nc_ht=scontent-mxp1-1.xx&oh=67ece57b6a4d3cf2c662c30818e478f1&oe=5E268ADB",
+        icon: "images/alma.png",
         date: "25 dicc",
         // 
         description: "...",
-        link: "?",
+        links: [],
         stats: [
             {}, {}
         ]
@@ -165,20 +175,35 @@ content.EDUCATION = [
     {
         // icon
         label: "IT Degree",
-        icon: "https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/18694_911109745594187_7030459367885190809_n.png?_nc_cat=108&_nc_oc=AQnTdmWlA9fqHKK6xOsSIrBnNJOoEcXsf_mq0OcpGXZPmev-gYY5vkpmY7A7SefxW8w&_nc_ht=scontent-mxp1-1.xx&oh=67ece57b6a4d3cf2c662c30818e478f1&oe=5E268ADB",
+        icon: "images/alma.png",
         date: "25 dicc",
         // 
         description: "...",
-        link: "?",
+        links: [],
         stats: [
             {}, {}
         ]
     },
 ]
-// export let content = {
-//     experience,
-//     // education,
-//     // projects,
-//     // stuff,
-//     // contacts,
-// }
+
+content.PROJECTS = [
+    {
+        // icon
+        label: "IT Degree",
+        icon: "images/alma.png",
+        date: "25 dicc",
+        // 
+        description: "...",
+        links: [],
+        stats: [
+            {}, {}
+        ]
+    },
+]
+
+// github
+// twitter
+// linkedin
+// stackoverflow
+// mail
+// medium?

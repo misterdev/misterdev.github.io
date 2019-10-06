@@ -9,7 +9,7 @@
 
 
 <div id="wrapper">
-    <div id="title">SKINS</div>
+    <div id="title">LINKS</div>
     <div id="links">
         {#each links as {icon, url}}
             <a class="item" href={url} target="_blank">
@@ -28,6 +28,7 @@
     }
     #links {
         background-color: white;
+        height: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
