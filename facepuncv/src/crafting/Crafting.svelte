@@ -2,6 +2,8 @@
     import Categories from './Categories.svelte'
     import List from './List.svelte'
     import Description from './Description.svelte'
+    import Links from './Links.svelte'
+    import Skills from './Skills.svelte'
 </script>
 
  <!-- https://www.youtube.com/watch?v=tJ3nGtooxoM&t=656s -->
@@ -17,7 +19,9 @@
             <Description />
         </div>
         <div id="queue"></div>
-        <div id="skins"></div>
+        <div id="links">
+            <Links />
+        </div>
         <div id="stats"></div>
     </div>
 </div>
@@ -38,11 +42,13 @@
         background-color: yellow;
     }
     #queue {
+        position: relative;
         grid-area: queu;
         background-color: green;
     }
-    #skins {
-        grid-area: skin;
+    #links {
+        position: relative;
+        grid-area: link;
         background-color: magenta;
     }
     #stats {
@@ -67,9 +73,9 @@
             "cats list list list desc desc desc desc"
             "cats list list list desc desc desc desc"
             "cats list list list desc desc desc desc"
-            "cats list list list skin skin skin skin"
-            "cats list list list skin skin skin skin"
-            "cats list list list skin skin skin skin"
+            "cats list list list link link link link"
+            "cats list list list link link link link"
+            "cats list list list link link link link"
             "cats list list list stat stat stat stat"
             "cats list list list stat stat stat stat"
             "queu queu queu queu stat stat stat stat";

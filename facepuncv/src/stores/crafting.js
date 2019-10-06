@@ -34,7 +34,16 @@ content.EXPERIENCE = [
         date: "25 dicc",
         // 
         description: "A cookie associated with a cross-site resource at https://google.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure",
-        link: "?",
+        links: [
+            {
+                icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
+                url: "https://github.com/misterdev/webpack-reporter-plugin"
+            },
+            {
+                icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
+                url: "https://github.com/misterdev/webpack-reporter-plugin"
+            }
+        ],
         skills: [
             {}, {}
         ]
@@ -46,7 +55,12 @@ content.EXPERIENCE = [
         date: "25 dicc",
         // 
         description: "kajshdkjahsdkja aksjdhkajs dkjashd kashdk asdkjahs dkahs d aisuhda sdkasdiuasdauis daiusd asiduha sidiuashd ajshdkhae fiuh",
-        link: "?",
+        links: [
+            {
+                icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
+                url: "https://github.com/misterdev/webpack-reporter-plugin"
+            }
+        ],
         skills: [
             {}, {}
         ]
