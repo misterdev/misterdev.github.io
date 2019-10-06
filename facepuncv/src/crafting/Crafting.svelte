@@ -1,5 +1,7 @@
 <script>
     import Categories from './Categories.svelte'
+    import List from './List.svelte'
+    import Description from './Description.svelte'
 </script>
 
  <!-- https://www.youtube.com/watch?v=tJ3nGtooxoM&t=656s -->
@@ -8,9 +10,13 @@
         <div id="categories">
             <Categories />
         </div>
-        <div id="list"></div>
+        <div id="list">
+            <List />
+        </div>
+        <div id="description">
+            <Description />
+        </div>
         <div id="queue"></div>
-        <div id="description"></div>
         <div id="skins"></div>
         <div id="stats"></div>
     </div>
@@ -18,19 +24,22 @@
 
 <style>
     #categories {
+        position: relative;
         grid-area: cats;
     }
     #list {
+        position: relative;
         grid-area: list;
         background-color: blue;
+    }
+    #description {
+        position: relative;
+        grid-area: desc;
+        background-color: yellow;
     }
     #queue {
         grid-area: queu;
         background-color: green;
-    }
-    #description {
-        grid-area: desc;
-        background-color: yellow;
     }
     #skins {
         grid-area: skin;
