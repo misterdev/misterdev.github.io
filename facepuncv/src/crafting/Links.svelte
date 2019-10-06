@@ -9,7 +9,7 @@
 
 
 <div id="wrapper">
-    <div id="title">LINKS</div>
+    <div id="title">SKINS</div>
     <div id="links">
         {#each links as {icon, url}}
             <a class="item" href={url} target="_blank">

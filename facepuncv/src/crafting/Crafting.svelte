@@ -3,7 +3,7 @@
     import List from './List.svelte'
     import Description from './Description.svelte'
     import Links from './Links.svelte'
-    import Skills from './Skills.svelte'
+    import Stats from './Stats.svelte'
 </script>
 
  <!-- https://www.youtube.com/watch?v=tJ3nGtooxoM&t=656s -->
@@ -22,7 +22,9 @@
         <div id="links">
             <Links />
         </div>
-        <div id="stats"></div>
+        <div id="stats">
+            <Stats />
+        </div>
     </div>
 </div>
 
@@ -52,6 +54,7 @@
         background-color: magenta;
     }
     #stats {
+        position: relative;
         grid-area: stat;
         background-color: orange;
     }

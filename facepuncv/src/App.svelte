@@ -7,6 +7,9 @@
 	let selected = Crafting
 </script>
 
+<svelte:head>
+	<link href="https://fonts.googleapis.com/css?family=Yantramanav:900&display=swap" rel="stylesheet">
+</svelte:head>
 <div class="wrapper">
 	<div class="overlay"></div>
 	<video {src} autoplay loop muted/>
@@ -21,6 +24,7 @@
 		height: 100vh;
 		display: flex;
 		align-items: center;
+		background-color: black;
 	}
 	.overlay {
 		position: absolute;

@@ -29,63 +29,97 @@ export let content = {}
 content.EXPERIENCE = [
     {
         // icon
-        label: "GSOC 19",
-        icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
+        label: "OSS Javascript Developer",
+        icon: "images/webpack.png",
         date: "25 dicc",
         // 
-        description: "A cookie associated with a cross-site resource at https://google.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure",
+        description: "After contributing to Webpack, I've been selected globally for the \"Google Summer of Code 2019\" to design and develop a modular output reporting system for webpack",
         links: [
             {
-                icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
-                url: "https://github.com/misterdev/webpack-reporter-plugin"
+                icon: "images/gsoc.png",
+                url: "https://summerofcode.withgoogle.com/",
+                label: "GSoC Website"
             },
             {
-                icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
+                icon: "images/gsoc.png",
                 url: "https://github.com/misterdev/webpack-reporter-plugin"
             }
         ],
-        skills: [
-            {}, {}
+        stats: [
+            {
+                label: 'Javascript',
+                count: 700
+            },
+            {
+                label: 'Firebase',
+                count: 600
+            },
+            {
+                label: 'Firebase',
+                count: 600
+            },
+            {
+                label: 'Firebase',
+                count: 600
+            }
         ]
     },
     {
         // icon
         label: "Lay Lab",
-        icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
+        icon: "images/gsoc.png",
         date: "25 dicc",
         // 
         description: "kajshdkjahsdkja aksjdhkajs dkjashd kashdk asdkjahs dkahs d aisuhda sdkasdiuasdauis daiusd asiduha sidiuashd ajshdkhae fiuh",
         links: [
             {
-                icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
+                icon: "images/gsoc.png",
                 url: "https://github.com/misterdev/webpack-reporter-plugin"
             }
         ],
-        skills: [
-            {}, {}
+        stats: [
+            {
+                label: 'Javascript',
+                count: 500
+            },
+            {
+                label: 'Firebase',
+                count: 70
+            }
         ]
     },
     {
         // icon
         label: "GSOC 15",
-        icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
+        icon: "images/appinventor.png",
         date: "25 dicc",
         // 
         description: "jh hk kj jh kjh kjh kj hk jh kjh kj hkj hk jh kj h kjh kj hkj hkj hkj h kjh",
         link: "?",
-        skills: [
-            {}, {}
+        stats: [
+            {
+                label: 'Ionic',
+                count: 500
+            },
+            {
+                label: 'Firebase',
+                count: 70
+            },
+            {
+                label: 'Elasticsearch',
+                count: 70
+            }
         ]
     },
     {
         // icon
         label: "DMDTEK",
-        icon: "https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png",
+        icon: "images/gsoc.png",
         date: "25 dicc",
         // 
         description: "...",
         link: "?",
-        skills: [
+        stats: [
             {}, {}
         ]
     },
@@ -97,7 +131,7 @@ content.EXPERIENCE = [
         // 
         description: "...",
         link: "?",
-        skills: [
+        stats: [
             {}, {}
         ]
     },
@@ -112,7 +146,7 @@ content.EDUCATION = [
         // 
         description: "...",
         link: "?",
-        skills: [
+        stats: [
             {}, {}
         ]
     },
@@ -124,7 +158,7 @@ content.EDUCATION = [
         // 
         description: "...",
         link: "?",
-        skills: [
+        stats: [
             {}, {}
         ]
     },
@@ -136,7 +170,7 @@ content.EDUCATION = [
         // 
         description: "...",
         link: "?",
-        skills: [
+        stats: [
             {}, {}
         ]
     },
