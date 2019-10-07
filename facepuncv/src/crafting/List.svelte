@@ -49,6 +49,6 @@
         background-color: green;
     }
     .item img {
-        max-width: 60%;
+        max-width: 50%;
     }
 </style>

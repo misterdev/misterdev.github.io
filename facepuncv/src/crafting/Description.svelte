@@ -13,7 +13,7 @@
         <div id="title">{item.label}</div>
         <div id="time">{item.date}</div>
     </div>
-    <div id="description">{item.description}</div>
+    <div id="description">{@html item.description}</div>
 </div>
 
 <style>
@@ -24,16 +24,17 @@
         background-color: aqua;
     }
     #header {
-        height: 20%;
-        padding: .5%;
+        height: 4vw;
+        padding: .5% 2%;
         display: flex;
         flex-direction: row;
         align-items: center;
         background-color: red;
+        font-size: 1.5vw;
+        font-weight: 800;
     }
-    #header img {
-        width: 3vw;
-        height: 3vw;
+    img {
+        width: 2.5vw;
     }
     #title {
         flex-grow: 1;

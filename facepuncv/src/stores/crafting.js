@@ -28,7 +28,13 @@ content.EXPERIENCE = [
         icon: "images/webpack.png",
         date: "Dec 2018",
         // 
-        description: "(OSS Javascript Developer)\nAfter contributing to Webpack, I've been selected globally for the \"Google Summer of Code 2019\" to design and develop a modular output reporting system for webpack",
+        description: `
+        <p>
+            <b>OSS Javascript Developer</b></br>
+            Webpack (Remote work)
+        </p>
+        <i>After contributing to Webpack, I've been selected globally for the "Google Summer of Code 2019" to design and develop a modular output reporting system for webpack</i>
+        `,
         links: [
             {
                 icon: "images/gsoc.png",
@@ -66,7 +72,13 @@ content.EXPERIENCE = [
         icon: "images/laylab.png",
         date: "25 dicc",
         // 
-        description: "I worked on different projects using web technologies. I developed some websites and a mobile app with a complex backend",
+        description: `
+        <p>
+            <b>Fullstack Javascript Developer</b></br>
+            Lay Lab (Altedo, BO)
+        </p>
+        <i>I worked on web projects like the company website and a mobile app with a complex backend using web technologies (Ionic, NodeJS, Firebase, elasticsearch, ...)</i>
+        `,
         links: [
             {
                 icon: "images/laylab.png",
@@ -103,10 +115,11 @@ content.EXPERIENCE = [
         date: "25 dicc",
         // 
         description: `
-        OSS Javascript Developer
-        MIT Media Lab (Massachusetts, US - Remote work)
-        
-        I've been selected globally for the "Google Summer of Code 2015" to work on an organization tool for the Blockly editor of MIT App Inventor 2        
+        <p>
+            <b>OSS Javascript Developer</b></br>
+            MIT Media Lab (Massachusetts, US - Remote work)
+        </p>
+        <i>I've been selected globally for the "Google Summer of Code 2015" to work on an organization tool for the Blockly editor of MIT App Inventor 2</i>
         `,
         links: [
             {
@@ -132,10 +145,11 @@ content.EXPERIENCE = [
         date: "25 dicc",
         // 
         description: `
-        Android Developer
-        DMDTEK S.R.L (Imola, BO)
-
-        I developed a module for and Android embedded system
+        <p>
+            <b>Android Developer</b></br>
+            DMDTEK S.R.L (Imola, BO)
+        </p>
+        <i>I developed a module for and Android embedded system</i>
         `,
         links: [],
         stats: [
@@ -152,37 +166,46 @@ content.EDUCATION = [
         // icon
         label: "CS Master",
         icon: "images/alma.png",
-        date: "25 dicc",
+        date: "(2016 - in progress)",
         // 
-        description: "...",
+        description: `
+        <p><b>University of Bologna</p></b>
+
+        Master degree in Computer Science</br>
+        Average Grade: 29.55
+        `,
         links: [],
-        stats: [
-            {}, {}
-        ]
+        stats: []
     },
     {
         // icon
         label: "CS Bachelor",
         icon: "images/alma.png",
-        date: "25 dicc",
+        date: "(2012 - 2016)",
         // 
-        description: "...",
+        description: `
+        <p><b>University of Bologna</p></b>
+
+        Bachelor degree in Computer Science</br>
+        Score 98/110
+        `,
         links: [],
-        stats: [
-            {}, {}
-        ]
+        stats: []
     },
     {
         // icon
         label: "IT Degree",
         icon: "images/alma.png",
-        date: "25 dicc",
+        date: "(2007 - 2012)",
         // 
-        description: "...",
+        description: `
+        <p><b>ITIS Odone Belluzzi</p></b>
+
+        Bachelor degree in Computer Science</br>
+        Score 86/100        
+        `,
         links: [],
-        stats: [
-            {}, {}
-        ]
+        stats: []
     },
 ]
 
@@ -195,9 +218,7 @@ content.PROJECTS = [
         // 
         description: "...",
         links: [],
-        stats: [
-            {}, {}
-        ]
+        stats: []
     },
 ]
 
