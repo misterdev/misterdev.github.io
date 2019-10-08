@@ -29,6 +29,18 @@
 </div>
 
 <style>
+    #wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-top: 3.84%;
+        padding-right: 5.76%;
+        padding-bottom:  9.61%;
+        padding-left: 5.76%;
+        background: greenyellow;
+        opacity: .7;
+        box-sizing: border-box;
+    }
     #categories {
         position: relative;
         grid-area: cats;
@@ -57,16 +69,6 @@
         position: relative;
         grid-area: stat;
         background-color: orange;
-    }
-    #wrapper {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        padding: 40px 40px 80px 40px;
-        overflow: hidden;
-        background: greenyellow;
-        opacity: .7;
-        box-sizing: border-box;
     }
     #content {
         width: 100%;
