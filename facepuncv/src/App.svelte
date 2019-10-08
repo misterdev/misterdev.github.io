@@ -11,7 +11,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </svelte:head>
 <div class="wrapper">
-	<div class="overlay"></div>
 	<video {src} autoplay loop muted/>
 	<div id="content">
 		<svelte:component this={selected} />
@@ -20,32 +19,30 @@
 
 <style>
 	.wrapper {
+		position: absolute;
 		width: 100vw;
 		height: 100vh;
 		display: flex;
 		align-items: center;
+		justify-content: center;
 		background-color: black;
 	}
-	.overlay {
+	video {
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: white;
-		opacity: 0;
-	}
-	video {
-		width: 100%;
 		filter: blur(8px);
 		-webkit-filter: blur(8px);
 	}
-
 	#content {
-		position: fixed;
+		position: absolute;
 		width: 100vw;
-		height: calc(100vw / 16 * 9);
-		/* background-color: blue;
-		opacity: .8; */
+		height: 56.25vw;
+		max-width: 177.78vh;
+		max-height: 100vh;
+		opacity: .8;
+		background-color: red;
 	}
 </style>
