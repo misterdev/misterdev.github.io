@@ -25,20 +25,19 @@
     .wrapper {
         position: absolute;
         width: 100%;
+        padding-top: 2%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-        background-color: yellow;
-        opacity: .8;
+        opacity: .4;
     }
     .item {
-        flex-basis: 25%;
+        margin: 1%;
+        flex-basis: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: brown;
-        opacity: .8;
     }
     .item:before {
         content:'';
@@ -46,9 +45,9 @@
         padding-top:100%;
     }
     .item:hover {
-        background-color: green;
+        background-color: white;
     }
     .item img {
-        max-width: 50%;
+        max-width: 70%;
     }
 </style>

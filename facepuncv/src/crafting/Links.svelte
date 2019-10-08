@@ -24,11 +24,17 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: aliceblue;
+        display: flex;
+        align-items: center;
+        padding: 1%;
+    }
+    #title {
+        position: absolute;
+        top: 2%;
+        color: white;
     }
     #links {
-        background-color: white;
-        height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -37,7 +43,6 @@
     .item {
         flex-basis: 25%;
     }
-
     .item img {
         max-width: 60%;
     }

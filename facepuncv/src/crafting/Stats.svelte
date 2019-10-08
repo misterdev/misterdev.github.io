@@ -25,34 +25,37 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: lightgrey;
         display: flex;
         flex-direction: column;
-        font-size: 1vw;
+        font-size: 100%;
+    }
+    #header {
+        color: white;
     }
     .item {
         flex-basis: 10%;
         display: flex;
         flex-direction: row;
-        background-color: green;
     }
     .item > div {
-        margin: 2px;
-        padding: 2px;
+        margin: .5px;
+        padding: .5% 1%;
         box-sizing: border-box;
         display: flex;
-        align-items: center; /* Vertical center alignment */
+        align-items: center;
+    }
+    .item:not(#header) > div {
+        background-color: rgba(0,0,0,.3);
+        color: rgb(255, 214, 29);
     }
     #header.item > div:nth-child(1) {
         justify-content: center;
     }
     .item > div:nth-child(1) {
         flex-basis: 25%;
-        background-color: lightskyblue;
         justify-content: flex-end;
     }
     .item > div:nth-child(2) {
-        background-color: khaki;
         flex-basis: 75%;
     }
 </style>

@@ -42,22 +42,19 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        background-color: red;
         overflow: hidden;
         font-size: 1vw;
-        font-weight: 800;
     }
     .item {
-        padding: 4px;
+        padding: 10% 7%;
         box-sizing: border-box;
-        background-color: orange;
         display: flex;
         flex-direction: row;
         align-items: center;
+        color: white;
     }
     .item:hover {
         background-color: #4184B7;
-        color: white;
     }
     .icon {
         width: 1vw;

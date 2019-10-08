@@ -42,7 +42,5 @@
 		height: 56.25vw;
 		max-width: 177.78vh;
 		max-height: 100vh;
-		opacity: .8;
-		background-color: red;
 	}
 </style>

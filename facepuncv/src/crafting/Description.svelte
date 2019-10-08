@@ -21,29 +21,26 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: aqua;
+        color: white;
     }
     #header {
-        height: 4vw;
+        height: 20%;
         padding: .5% 2%;
         display: flex;
         flex-direction: row;
         align-items: center;
-        background-color: red;
-        font-size: 1.5vw;
-        font-weight: 800;
+        font-size: 100%;
     }
     img {
-        width: 2.5vw;
+        height: 100%;
     }
     #title {
         flex-grow: 1;
         text-align: center;
-        color: white;
     }
     #description {
-        font-size: 1vw;
+        font-size: 80%;
         text-justify: distribute;
-        padding: 1vw 2vw;
+        padding: 2.5% 5%;
     }
 </style>

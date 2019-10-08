@@ -37,9 +37,12 @@
         padding-right: 5.76%;
         padding-bottom:  9.61%;
         padding-left: 5.76%;
-        background: greenyellow;
-        opacity: .7;
+        background: rgba(0,0,0,.7);
         box-sizing: border-box;
+    }
+    #content > div {
+        background-color: rgb(102, 102, 102);
+        opacity: .4;
     }
     #categories {
         position: relative;
@@ -48,27 +51,22 @@
     #list {
         position: relative;
         grid-area: list;
-        background-color: blue;
     }
     #description {
         position: relative;
         grid-area: desc;
-        background-color: yellow;
     }
     #queue {
         position: relative;
         grid-area: queu;
-        background-color: green;
     }
     #links {
         position: relative;
         grid-area: link;
-        background-color: magenta;
     }
     #stats {
         position: relative;
         grid-area: stat;
-        background-color: orange;
     }
     #content {
         width: 100%;
@@ -84,7 +82,7 @@
             "cats list list list stat stat stat stat"
             "cats list list list stat stat stat stat"
             "queu queu queu queu stat stat stat stat";
-        grid-column-gap: 2px;
-        grid-row-gap: 2px;
+        grid-column-gap: .4%;
+        grid-row-gap: .7%;
     }
 </style>
