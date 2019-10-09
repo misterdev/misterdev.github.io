@@ -1,6 +1,7 @@
 <script>
 	import Inventory from './inventory/Inventory.svelte'
 	import Crafting from './crafting/Crafting.svelte'
+	import Equipped from './Equipped.svelte'
 	export let name;
 	let src = 'https://sveltejs.github.io/assets/caminandes-llamigos.mp4'
 	// let src = 'https://video.xx.fbcdn.net/v/t42.9040-2/68135311_2342255342534112_4239331015497089024_n.mp4?_nc_cat=108&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCJ9&_nc_oc=AQnD8UbJiLvZ7DpjjSWnxGYR_HSynb8VXzKOwyjkyvpEW_NiLXnDJqGTFA5FGj6Go4E&_nc_ht=video-mxp1-1.xx&oh=70776a3ab340b170f6c9e49d80f9fce7&oe=5D98ECE8'
@@ -14,6 +15,7 @@
 	<video {src} autoplay loop muted/>
 	<div id="content">
 		<svelte:component this={selected} />
+		<Equipped />
 	</div>
 </div>
 
