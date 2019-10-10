@@ -15,7 +15,9 @@
 	<video {src} autoplay loop muted/>
 	<div id="content">
 		<svelte:component this={selected} />
-		<Equipped />
+		<div id="footer">
+			<Equipped />
+		</div>
 	</div>
 </div>
 
@@ -44,5 +46,11 @@
 		height: 56.25vw;
 		max-width: 177.78vh;
 		max-height: 100vh;
+	}
+	#footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding: 1%;
 	}
 </style>

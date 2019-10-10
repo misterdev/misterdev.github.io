@@ -8,41 +8,37 @@
         <img src="images/rock.png" alt="rock"/>
     </a>
     <a class="item" href="https://github.com/misterdev">
-        <!-- <div class="logo"><DiGithubBadge /></div> -->
-        <img src="images/github3d.png" alt="rock"/>
+        <img src="images/github3d.png" alt="github"/>
     </a>
     <a class="item" href="https://twitter.com/misterdev_">
-        <!-- <div class="logo"><FaTwitter /></div> -->
-        <img src="images/twitter3d2.png" alt="rock"/>
+        <img src="images/twitter3d2.png" alt="twitter"/>
     </a>
-    <a class="item">
-        <img src="images/linkedin3d.png" alt="rock"/>
+    <a class="item" href="https://www.linkedin.com/in/misterdev/">
+        <img src="images/linkedin3d.png" alt="linkedin"/>
     </a>
-    <a class="item">
-        <img src="images/stack3d.png" alt="rock"/>
+    <a class="item" href="https://stackoverflow.com/users/4695325/devid-farinelli">
+        <img src="images/stack3d.png" alt="stackoverflow"/>
     </a>
-    <a class="item">
-        <img src="images/envelope3d.png" alt="rock"/>
+    <a class="item" href="mailto:devid.farinelli@gmail.com">
+        <img src="images/envelope3d.png" alt="e-mail"/>
     </a>
 </div>
 
 <style>
     #wrapper {
         width: 100%;
-        height: 15%;
-        max-height: 15%;
-        background-color: mediumpurple;
-        /* opacity: .2; */
-        /* align-self: flex-end; */
+        height: 10%;
+        max-height: 10%;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
     .item {
         height: 100%;
-        width: 85.78px;
+        width: 8.57%;
         margin: 1px;
-        background-color: green;
+        background-color: rgb(102, 102, 102);
+        opacity: .4;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -51,7 +47,7 @@
     .item:after {
         padding-top: 100%;
     }
-    img, .logo {
+    img {
         width: 80%;
     }
 </style>
