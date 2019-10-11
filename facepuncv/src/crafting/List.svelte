@@ -16,7 +16,7 @@
 <div class="wrapper">
     {#each items as { label, icon}, i}
         <div class="item" on:click={() => selectItem(i)}>
-            <img src={icon} />
+            <img src={icon} alt="icon" />
         </div>
     {/each}
 </div>
@@ -30,7 +30,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-        opacity: .4;
     }
     .item {
         margin: 1%;
@@ -48,6 +47,7 @@
         background-color: white;
     }
     .item img {
-        max-width: 70%;
+        opacity: .7;
+        max-width: 60%;
     }
 </style>

@@ -16,22 +16,22 @@
         <div class="icon">
             <FaChartLine />
         </div>
-        <div>EXPERIENCE</div>
-        <div class="counter">4</div>
+        <div><b>EXPERIENCE</b></div>
+        <div class="counter"><b>4</b></div>
     </div>
     <div class="item" on:click={() => selectCat(cats.EDU.id)}>
         <div class="icon">
             <FaBroom />
         </div>
-        <div>EDUCATION</div>
-        <div class="counter">3</div>
+        <div><b>EDUCATION</b></div>
+        <div class="counter"><b>3</b></div>
     </div>
     <div class="item" on:click={() => selectCat(cats.PROJ.id)}>
         <div class="icon">
             <FaAward />
         </div>
-        <div>PROJECTS</div>
-        <div class="counter">7</div>
+        <div><b>PROJECTS</b></div>
+        <div class="counter"><b>7</b></div>
     </div>
 </div>
 
@@ -51,7 +51,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        color: white;
+        color: rgb(170, 168, 168);
     }
     .item:hover {
         background-color: #4184B7;
@@ -64,5 +64,6 @@
     .counter {
         flex-grow: 1;
         text-align: right;
+        color: rgb(98, 139, 172);
     }
 </style>

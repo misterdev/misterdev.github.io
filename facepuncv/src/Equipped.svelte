@@ -33,10 +33,9 @@
     }
     .item {
         height: 100%;
-        width: 4.5%;
-        margin: 1px;
-        background-color: rgb(102, 102, 102);
-        opacity: .4;
+        width: 4.2%;
+        margin: .5px;
+        background-color: rgba(255, 255, 255, .2);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -44,5 +43,6 @@
     }
     img {
         width: 100%;
+        opacity: .8;
     }
 </style>

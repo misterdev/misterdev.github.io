@@ -37,12 +37,11 @@
         padding-right: 5.76%;
         padding-bottom:  9.61%;
         padding-left: 5.76%;
-        background: rgba(0,0,0,.7);
+        background: rgba(0, 0, 0, 0.5);
         box-sizing: border-box;
     }
     #content > div {
-        background-color: rgb(102, 102, 102);
-        opacity: .4;
+        background-color: rgba(115, 115, 114, 0.42);
     }
     #categories {
         position: relative;
@@ -82,7 +81,7 @@
             "cats list list list stat stat stat stat"
             "cats list list list stat stat stat stat"
             "queu queu queu queu stat stat stat stat";
-        grid-column-gap: .4%;
+        grid-column-gap: .29%;
         grid-row-gap: .7%;
     }
 </style>
