@@ -44,7 +44,7 @@
         padding-top:100%;
     }
     .item:hover {
-        background-color: white;
+        background-color: rgba(255,255,255,.2);
     }
     .item img {
         max-width: 60%;
