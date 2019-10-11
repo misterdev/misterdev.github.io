@@ -47,7 +47,6 @@
         background-color: white;
     }
     .item img {
-        opacity: .7;
         max-width: 60%;
     }
 </style>

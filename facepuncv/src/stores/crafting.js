@@ -26,14 +26,17 @@ content.EXPERIENCE = [
         // icon
         label: "Webpack",
         icon: "images/webpack.png",
-        date: "Dec 2018",
+        date: {
+            start: "Dec 18",
+            end: "Aug 19"
+        },
         // 
         description: `
         <p>
             <b>OSS Javascript Developer</b></br>
             Webpack (Remote work)
         </p>
-        <i>After contributing to Webpack, I've been selected globally for the "Google Summer of Code 2019" to design and develop a modular output reporting system for webpack</i>
+        After contributing to Webpack, I've been selected globally for the "Google Summer of Code 2019" to design and develop a modular output reporting system for webpack
         `,
         links: [
             {
@@ -70,14 +73,17 @@ content.EXPERIENCE = [
         // icon
         label: "Lay Lab",
         icon: "images/laylab.png",
-        date: "25 dicc",
+        date: {
+            start: "Dec 18",
+            end: "Aug 19"
+        },
         // 
         description: `
         <p>
             <b>Fullstack Javascript Developer</b></br>
             Lay Lab (Altedo, BO)
         </p>
-        <i>I worked on web projects like the company website and a mobile app with a complex backend using web technologies (Ionic, NodeJS, Firebase, elasticsearch, ...)</i>
+        I worked on web projects like the company website and a mobile app with a complex backend using web technologies (Ionic, NodeJS, Firebase, elasticsearch, ...)
         `,
         links: [
             {
@@ -112,14 +118,17 @@ content.EXPERIENCE = [
         // icon
         label: "MIT App Inventor",
         icon: "images/appinventor.png",
-        date: "25 dicc",
+        date: {
+            start: "Jun 15",
+            end: "Sep 15"
+        },
         // 
         description: `
         <p>
             <b>OSS Javascript Developer</b></br>
             MIT Media Lab (Massachusetts, US - Remote work)
         </p>
-        <i>I've been selected globally for the "Google Summer of Code 2015" to work on an organization tool for the Blockly editor of MIT App Inventor 2</i>
+        I've been selected globally for the "Google Summer of Code 2015" to work on an organization tool for the Blockly editor of MIT App Inventor 2
         `,
         links: [
             {
@@ -142,14 +151,17 @@ content.EXPERIENCE = [
         // icon
         label: "DMDTEK",
         icon: "images/android.png",
-        date: "25 dicc",
+        date: {
+            start: "Dec 18",
+            end: "Aug 19"
+        },
         // 
         description: `
         <p>
             <b>Android Developer</b></br>
             DMDTEK S.R.L (Imola, BO)
         </p>
-        <i>I developed a module for and Android embedded system</i>
+        I developed a module for and Android embedded system
         `,
         links: [],
         stats: [
@@ -166,7 +178,10 @@ content.EDUCATION = [
         // icon
         label: "CS Master",
         icon: "images/alma.png",
-        date: "(2016 - in progress)",
+        date: {
+            start: "Sep 16",
+            end: "Mar 20"
+        },
         // 
         description: `
         <p><b>University of Bologna</p></b>
@@ -181,7 +196,10 @@ content.EDUCATION = [
         // icon
         label: "CS Bachelor",
         icon: "images/alma.png",
-        date: "(2012 - 2016)",
+        date: {
+            start: "Sep 12",
+            end: "Dec 16"
+        },
         // 
         description: `
         <p><b>University of Bologna</p></b>
@@ -195,8 +213,11 @@ content.EDUCATION = [
     {
         // icon
         label: "IT Degree",
-        icon: "images/alma.png",
-        date: "(2007 - 2012)",
+        icon: "images/itis.png",
+        date: {
+            start: "Sep 07",
+            end: "Aug 12"
+        },
         // 
         description: `
         <p><b>ITIS Odone Belluzzi</p></b>

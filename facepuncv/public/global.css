@@ -3,6 +3,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
+	color: rgb(211, 211, 211);
 }
 
 body {
@@ -10,5 +11,4 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0px;
-	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; */
 }

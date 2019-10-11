@@ -9,7 +9,7 @@
 
 
 <div id="wrapper">
-    <div id="title">LINKS</div>
+    <div id="title"><b>LINKS</b></div>
     <div id="links">
         {#each links as {icon, url}}
             <a class="item" href={url} target="_blank">
@@ -30,8 +30,9 @@
     }
     #title {
         position: absolute;
-        top: 2%;
+        top: 2.5%;
         color: white;
+        font-size: calc(20% + 1vmin);;
     }
     #links {
         width: 100%;
@@ -44,6 +45,6 @@
         flex-basis: 25%;
     }
     .item img {
-        max-width: 60%;
+        max-width: 40%;
     }
 </style>

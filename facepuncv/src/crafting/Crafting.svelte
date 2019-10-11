@@ -50,10 +50,12 @@
     #list {
         position: relative;
         grid-area: list;
+        opacity: .8;
     }
     #description {
         position: relative;
         grid-area: desc;
+        opacity: .8;
     }
     #queue {
         position: relative;
@@ -62,10 +64,12 @@
     #links {
         position: relative;
         grid-area: link;
+        opacity: .8;
     }
     #stats {
         position: relative;
         grid-area: stat;
+        opacity: .8;
     }
     #content {
         width: 100%;
@@ -75,7 +79,7 @@
             "cats list list list desc desc desc desc"
             "cats list list list desc desc desc desc"
             "cats list list list desc desc desc desc"
-            "cats list list list link link link link"
+            "cats list list list desc desc desc desc"
             "cats list list list link link link link"
             "cats list list list link link link link"
             "cats list list list stat stat stat stat"

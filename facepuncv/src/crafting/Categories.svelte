@@ -1,9 +1,8 @@
 <script>
     import { categories as cats, content, navigation } from '../stores/crafting.js';
-    import FaChartLine from 'svelte-icons/fa/FaChartLine.svelte'
-    import FaBroom from 'svelte-icons/fa/FaBroom.svelte'
-    import FaAward from 'svelte-icons/fa/FaAward.svelte'
-
+    import MdBusinessCenter from 'svelte-icons/md/MdBusinessCenter.svelte'
+    import MdSchool from 'svelte-icons/md/MdSchool.svelte'
+    import MdFolder from 'svelte-icons/md/MdFolder.svelte'
     // const items = Object.keys(categories).map(k => categories[k]) 
 
     const selectCat = (catId) => {
@@ -14,21 +13,21 @@
 <div id="wrapper">
     <div class="item" on:click={() => selectCat(cats.EXP.id)}>
         <div class="icon">
-            <FaChartLine />
+            <MdBusinessCenter />
         </div>
         <div><b>EXPERIENCE</b></div>
         <div class="counter"><b>4</b></div>
     </div>
     <div class="item" on:click={() => selectCat(cats.EDU.id)}>
         <div class="icon">
-            <FaBroom />
+            <MdSchool />
         </div>
         <div><b>EDUCATION</b></div>
         <div class="counter"><b>3</b></div>
     </div>
     <div class="item" on:click={() => selectCat(cats.PROJ.id)}>
         <div class="icon">
-            <FaAward />
+            <MdFolder />
         </div>
         <div><b>PROJECTS</b></div>
         <div class="counter"><b>7</b></div>
@@ -57,8 +56,8 @@
         background-color: #4184B7;
     }
     .icon {
-        width: 1vw;
-        height: 1vw;
+        width: 1.2vw;
+        height: 1.2vw;
         margin-right: 6px; 
     }
     .counter {

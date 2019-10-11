@@ -29,11 +29,11 @@
         flex-direction: column;
     }
     #header {
-        color: white;
-        font-size: 5%;
+        font-size: calc(5% + 1vmin);
+        font-weight: bold;
     }
     .item {
-        flex-basis: 10%;
+        font-size: calc(70% + 1vmin);
         display: flex;
         flex-direction: row;
     }
@@ -46,7 +46,6 @@
     }
     .item:not(#header) > div {
         background-color: rgba(0,0,0,.3);
-        color: rgb(255, 214, 29);
         font-size: 50%;
     }
     #header.item > div:nth-child(1) {
