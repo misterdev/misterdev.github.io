@@ -39,7 +39,7 @@
         text-align: center;
     }
     #description {
-        font-size: 80%;
+        font-size: 1vmin;
         text-justify: distribute;
         padding: 2.5% 5%;
     }

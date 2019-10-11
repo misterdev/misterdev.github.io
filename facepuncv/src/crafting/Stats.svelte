@@ -27,10 +27,10 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        font-size: 100%;
     }
     #header {
         color: white;
+        font-size: 5%;
     }
     .item {
         flex-basis: 10%;
@@ -47,6 +47,7 @@
     .item:not(#header) > div {
         background-color: rgba(0,0,0,.3);
         color: rgb(255, 214, 29);
+        font-size: 50%;
     }
     #header.item > div:nth-child(1) {
         justify-content: center;

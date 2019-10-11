@@ -26,8 +26,6 @@
 
 <style>
     #wrapper {
-        width: 100%;
-        height: 10%;
         max-height: 10%;
         display: flex;
         flex-direction: row;
@@ -35,19 +33,16 @@
     }
     .item {
         height: 100%;
-        width: 8.57%;
+        width: 4.5%;
         margin: 1px;
         background-color: rgb(102, 102, 102);
         opacity: .4;
         display: flex;
         justify-content: center;
         align-items: center;
-
-    }
-    .item:after {
-        padding-top: 100%;
+        padding: 4px;
     }
     img {
-        width: 80%;
+        width: 100%;
     }
 </style>

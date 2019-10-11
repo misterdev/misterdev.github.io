@@ -51,6 +51,6 @@
 		position: absolute;
 		bottom: 0;
 		width: 100%;
-		padding: 1%;
+		margin-bottom: 1%;
 	}
 </style>
